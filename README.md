@@ -29,9 +29,9 @@ Emissions data are from the US Environmental Protection Agency's [Clean Air Mark
 
 Additional variables are not relevant to this analysis, however, a comprehensive list of AMPD column definitions is included for reference (see the  `AMPD_column_definitions.csv` file). 
 
-### Monthly sulfate concentrations
+### Sulfate concentration data
 
-Annual mean sulfate concentrations were obtained from the Randall Martin Atmospheric Composition Analysis Group's [North American Regional Estimates (V4.NA.03) dataset](https://sites.wustl.edu/acag/datasets/surface-pm2-5/#V4.NA.03). The data consist of raster annual mean SO4 data (micrograms per cubic meter; grid resolution = 0.01 x 0.01 degrees), as described in [van Donkelaar et al. (2019)](https://pubs.acs.org/doi/10.1021/acs.est.8b06392). The downloaded SO4 file is named `GWRwSPEC_SO4_NA_201101_201112.nc`. 
+Annual, monthly, and biweekly mean total and component PM2.5 data are available from Randall Martin's Atmospheric Composition Analysis Group's [lab website](https://www.satpm.org/v5-na-05); the component data include sulfate (GWRSO4) concentration data. The data can be downloaded as NETCDF files (WGS84 projection; grid resolution = 0.01 x 0.01 degrees; units = micrograms per cubic meter). A full description of the data product is described in [van Donkellar et al. (2024)](https://pubs.acs.org/doi/full/10.1021/acsestair.4c00151). 
 
 ### Meteorological data
 
