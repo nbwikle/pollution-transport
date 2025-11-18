@@ -18,8 +18,6 @@ Data have been archived for download at the beginning of the analysis (doi = X).
 
 Emissions data are from the US Environmental Protection Agency's [Clean Air Markets Program Data (AMPD)](https://campd.epa.gov/). The AMPD provides access to current and historical monthly emissions data on electricity generating units (EGUs), collected as part of EPA's emissions trading programs. The downloaded AMPD are named `AMPD_Unit_with_Sulfur_Content_and_Regulations_with_Facility_Attributes.csv`. This file contains monthly emissions totals of SO2 (and other chemical emissions), as well as characteristics of the EGUs from 1995-2017. The following columns are most relevant to our analysis:
 
-https://campd.epa.gov/
-
 - `Facility.ID`: unique six-digit facility identification number, also called an ORISPL, assigned by the Energy Information Administration
 - `Unit.ID`: unique identifier for each unit at a facility
 - `Year`: the calendar year during which activity occurred
@@ -29,7 +27,7 @@ https://campd.epa.gov/
 - `SO2..tons`: sulfur dioxide (SO2) emissions, in short tons
 - `Has.SO2.Scrub`: denotes use of flue-gas desulfurization (FGD) emissions reduction technologies (i.e., a scrubber is in use) 
 
-Additional variables are not relevant to this analysis, however, a comprehensive list of AMPD column definitions is included for reference (see the downloaded `AMPD_column_definitions.csv` file). 
+Additional variables are not relevant to this analysis, however, a comprehensive list of AMPD column definitions is included for reference (see the  `AMPD_column_definitions.csv` file). 
 
 ### Monthly sulfate concentrations
 
